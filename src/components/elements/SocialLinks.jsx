@@ -5,11 +5,7 @@ const SocialLinks = () => {
   return (
     <div className="Social-links">
       {social.map((item, index) => (
-        <div
-          className="Social-link"
-          key={index}
-          data-tooltip={item.name} // Make sure this line is correct
-        >
+        <div className="Social-link" key={index} data-tooltip={item.name}>
           <a
             href={item.link}
             target="_blank"
