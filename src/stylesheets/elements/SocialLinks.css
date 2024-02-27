@@ -1,0 +1,28 @@
+.Social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.Social-link {
+  color: var(--accent);
+  font-size: 1.8rem;
+  position: relative; /* Add this line */
+}
+
+.Social-link:hover {
+  transform: scale(1.1);
+}
+
+.Social-link:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}

@@ -1,0 +1,28 @@
+/* General styles for the experience section */
+.experience-container {
+  padding: 1.5rem; /* Provides padding within the container */
+  margin-bottom: 2rem; /* Space at the bottom of the section */
+}
+
+.experience-item {
+  margin-bottom: 1.5rem; /* Space between experience items */
+}
+
+.experience-item h3 {
+  font-size: 1.2rem; /* Size of the job title */
+  margin-bottom: 0.5rem; /* Space between the title and the duration */
+}
+
+.experience-duration {
+  font-style: italic; /* Styling for the duration of the experience */
+  margin-bottom: 1rem; /* Space between the duration and the description list */
+}
+
+.experience-container ul {
+  list-style-type: circle; /* Adds bullet points to the list */
+  padding-left: 1.5rem; /* Indentation for the list */
+}
+
+.experience-container ul li {
+  margin-bottom: 0.5rem; /* Space between list items */
+}
