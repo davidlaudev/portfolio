@@ -19,7 +19,6 @@ const social = [
   {
     icon: IoDocumentSharp,
     link: "/images/David_resume.pdf",
-
     name: "Resume",
   },
 ];

@@ -11,7 +11,7 @@ const Home = () => {
     <section className="Home section" id="home">
       <div className="container">
         <div className="Home-caption">
-          <span className="Home-hi">Hi I'm</span>
+          <span className="Home-hi">Hi I'm,</span>
           <h1 className="Home-h1">
             David Lau
             <span class="wave-animation"> 👋</span>

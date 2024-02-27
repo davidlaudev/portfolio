@@ -37,7 +37,7 @@ const Nav = () => {
             href="#contact"
             onClick={() => setMenu(false)}
           >
-            Contact.
+            Contact
           </a>
         </div>
       </div>
