@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { ThemeContext } from "/src/contexts/ThemeContext.jsx";
 import Header from "/src/components/sections/Header";
 import Home from "/src/components/sections/Home";
-import Work from "/src/components/sections/Work";
+import Project from "/src/components/sections/Project";
 import Stack from "/src/components/sections/Stack";
 import Contact from "/src/components/sections/Contact";
 import Footer from "/src/components/sections/Footer";
@@ -17,7 +17,7 @@ function App() {
     <div className="App" id="top" data-theme={theme}>
       <Header />
       <Home />
-      <Work />
+      <Project />
       <Stack />
       <Contact />
       <Footer />

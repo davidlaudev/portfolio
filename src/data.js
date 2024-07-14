@@ -25,7 +25,7 @@ const social = [
 
 const brand = "David Lau";
 
-const work = [
+const project = [
   {
     name: "Geodudes",
     description:
@@ -107,4 +107,4 @@ const contact = {
   email: "dlau747@email.com",
 };
 
-export { profile, social, work, stack, contact, brand };
+export { profile, social, project, stack, contact, brand };
