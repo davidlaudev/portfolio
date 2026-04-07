@@ -3,7 +3,7 @@ import { ThemeContext } from "/src/contexts/ThemeContext.jsx";
 import Header from "/src/components/sections/Header";
 import Home from "/src/components/sections/Home";
 import Project from "/src/components/sections/Project";
-import Stack from "/src/components/sections/Stack";
+import Experience from "/src/components/sections/Experience";
 import Contact from "/src/components/sections/Contact";
 import Footer from "/src/components/sections/Footer";
 import ScrollToTop from "/src/components/elements/ScrollToTop";
@@ -18,7 +18,7 @@ function App() {
       <Header />
       <Home />
       <Project />
-      <Stack />
+      <Experience />
       <Contact />
       <Footer />
       <ScrollToTop />

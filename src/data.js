@@ -16,11 +16,11 @@ const social = [
     link: "https://www.linkedin.com/in/david-lau-3780411a7/",
     name: "LinkedIn",
   },
-  {
-    icon: IoDocumentSharp,
-    link: "/images/David_resume.pdf",
-    name: "Resume",
-  },
+  // {
+  //   icon: IoDocumentSharp,
+  //   href: "/images/David_Resume.pdf",
+  //   name: "Resume",
+  // },
 ];
 
 const brand = "David Lau";
@@ -31,14 +31,28 @@ const project = [
     description:
       "Interactive mapping platform using MERN stack, enabling users to upload, view, and edit map data. Features community sharing and robust account management. (Hosted on free render, spinup time when visiting the site)",
     stack: [
-      { icon: icon.SiJavascript, name: "Javascript" },
       { icon: icon.SiReact, name: "ReactJS" },
-      { icon: icon.SiMongodb, name: "MongoDB" },
       { icon: icon.SiNodedotjs, name: "NodeJS" },
+      { icon: icon.SiJavascript, name: "Javascript" },
+      { icon: icon.SiTailwindcss, name: "TailwindCSS" },
+      { icon: icon.SiMongodb, name: "MongoDB" },
       { icon: icon.SiLeaflet, name: "Leaflet" },
     ],
-    linkProject: "https://geodudes-frontend.onrender.com/",
     linkGithub: "https://github.com/sbobojonov/geodudes",
+    linkProject: "https://geodudes-frontend.onrender.com/",
+  },
+  {
+    name: "Zoom Clone",
+    description:
+      "An application that facilitates seamless video communication with advanced features like user authentication, meeting scheduling, call recording, and screen sharing, designed for both private and public video meetings.",
+    stack: [
+      { icon: icon.SiReact, name: "ReactJS" },
+      { icon: icon.SiNextdotjs, name: "NextJS" },
+      { icon: icon.SiJavascript, name: "Javascript" },
+      { icon: icon.SiTailwindcss, name: "TailwindCSS" },
+    ],
+    // linkGithub: "https://github.com/Mabedin00/WolfieMarket",
+    linkProject: "https://zoomclone-eta.vercel.app/",
   },
   {
     name: "MyBudget",
@@ -64,17 +78,6 @@ const project = [
     ],
     linkGithub:
       "https://github.com/CSE-316-Software-Development/final-project-team-ian",
-  },
-  {
-    name: "Wolfie Market",
-    description:
-      "Campus-centric marketplace for Stony Brook University students to buy and sell items, featuring secure in-app transactions and easy item listing.",
-    stack: [
-      { icon: icon.SiHtml5, name: "HTML" },
-      { icon: icon.SiCss3, name: "CSS" },
-      { icon: icon.SiJavascript, name: "Javascript" },
-    ],
-    linkGithub: "https://github.com/Mabedin00/WolfieMarket",
   },
 ];
 

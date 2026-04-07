@@ -15,6 +15,12 @@ const Card = ({ name, description, stack, linkProject, linkGithub }) => {
         ))}
       </div>
       <div className="Card-links">
+        {linkGithub ? (
+          <a href={linkGithub} className="Card-link-github" target="_blank">
+            <SiGithub className="Card-icon-github" />
+          </a>
+        ) : null}
+
         {linkProject ? (
           <a
             href={linkProject}
@@ -25,9 +31,6 @@ const Card = ({ name, description, stack, linkProject, linkGithub }) => {
             View Project <RiArrowRightLine className="Card-icon-arrow" />
           </a>
         ) : null}
-        <a href={linkGithub} className="Card-link-github" target="_blank">
-          <SiGithub className="Card-icon-github" />
-        </a>
       </div>
     </div>
   );

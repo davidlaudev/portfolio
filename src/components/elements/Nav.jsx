@@ -33,7 +33,11 @@ const Nav = () => {
           >
             Projects
           </a>
-          <a className="Nav-link" href="#stack" onClick={() => setMenu(false)}>
+          <a
+            className="Nav-link"
+            href="#Experience"
+            onClick={() => setMenu(false)}
+          >
             Experience
           </a>
           <a

@@ -1,9 +1,9 @@
 import React from "react";
-import "/src/stylesheets/sections/Stack.css";
+import "/src/stylesheets/sections/Experience.css";
 
-const Stack = () => {
+const Experience = () => {
   return (
-    <section className="Stack section" id="stack">
+    <section className="Stack section" id="Experience">
       <div className="container">
         <h2 className="Stack-h2 section-head">Experience</h2>
         <div className="experience-container">
@@ -14,18 +14,20 @@ const Stack = () => {
             </p>
             <ul>
               <li>
-                Implemented advanced data visualization techniques using Angular
-                and an Oracle relational database, resulting in a 30% increase
-                in user engagement with the financial portal.
+                Developed a financial portal in Angular using an Oracle
+                relational database to aggregate and display earnings of 4
+                company sectors with charts for enhanced visualization, utilized
+                by over 1,000 internal users.
               </li>
               <li>
-                Developed Maven libraries that reduced code duplication by 40%,
-                improving readability and scalability.
+                Created Maven libraries that reduced code duplication by 40%,
+                improving the readability and scalability of the code base.
               </li>
               <li>
                 Revamped the web application into an Angular Progressive Web App
-                (PWA), leading to mobile user adoption and a 15% decrease in
-                load time.
+                (PWA), leading to mobile user adoption and improved
+                accessibility across devices as well as decreased load time by
+                15%.
               </li>
             </ul>
           </div>
@@ -78,4 +80,4 @@ const Stack = () => {
   );
 };
 
-export default Stack;
+export default Experience;
